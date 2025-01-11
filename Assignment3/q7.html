@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Timetable</title>
+</head>
+<body>
+    <h1>Conference Timetable</h1>
+    
+    <p><b>Legend:</b></p>
+    <ul>
+        <li style="color: blue;">Keynote</li>
+        <li style="color: green;">Workshop</li>
+        <li style="color: orange;">Panel Discussion</li>
+    </ul>
+    
+    <table border="1" cellpadding="5">
+        <tr>
+            <th>Time</th>
+            <th>Room A</th>
+            <th>Room B</th>
+            <th>Room C</th>
+        </tr>
+        <tr>
+            <td>9:00 AM - 10:00 AM</td>
+            <td colspan="3" style="color: blue;" title="Keynote by Dr. Smith: The Future of AI">Keynote</td>
+        </tr>
+        <tr>
+            <td>10:15 AM - 11:15 AM</td>
+            <td style="color: green;" title="Workshop by Prof. Johnson: Intro to Machine Learning">Workshop</td>
+            <td style="color: orange;" title="Panel Discussion: Challenges in Data Science">Panel Discussion</td>
+            <td rowspan="2" style="color: green;" title="Workshop by Dr. Brown: Deep Learning Techniques">Workshop</td>
+        </tr>
+        <tr>
+            <td>11:30 AM - 12:30 PM</td>
+            <td colspan="2" style="color: orange;" title="Panel Discussion: Ethics in AI">Panel Discussion</td>
+        </tr>
+        <tr>
+            <td>1:30 PM - 2:30 PM</td>
+            <td style="color: green;" title="Workshop by Dr. White: NLP for Beginners">Workshop</td>
+            <td style="color: orange;" title="Panel Discussion: Emerging Trends in Technology">Panel Discussion</td>
+            <td style="color: green;" title="Workshop by Dr. Green: Cloud Computing Basics">Workshop</td>
+        </tr>
+    </table>
+</body>
+</html>
